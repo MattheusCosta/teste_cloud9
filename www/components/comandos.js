@@ -1,5 +1,11 @@
-// This is a JavaScript file
-
-$(document).on('click','#code', function(){
-  
-});
+  function scanBarcode() {
+    window.plugins.barcodeScanner.scan(function(result){
+     alert("We got a barcode\n" +
+      "Result: " + result.text + "\n" +
+      "Format: " + result.format + "\n" +
+      "Cancelled: " + result.cancelled);
+    }, function(error) {
+    alert("Scanning failed: " + error);
+    }
+   );
+  }
