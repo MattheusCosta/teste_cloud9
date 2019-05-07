@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="lib/onsenui/js/onsenui.min.js"></script>
+  <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+
+  <!-- Código Jquery -->
+  <script src="components/jquery-3.3.1.min.js"></script>
+  <script src="components/comandos.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+
+  <!-- CSS da aplicação -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <button class="btn btn-block btn-primary" style="margin-top: 5%; margin-bottom: 5%;" id="code">Código de barras</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <center>
+          <h2 style="font-size: 20px;">Nome do produto</h2>
+        </center>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <img id="imagemProduto" src="img/tel.jpg" style="width: 100%; margin-top: 5%; margin-bottom: 5%;">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <center>
+          <p style="font-size: 20px;">Valor: R$</p>
+        </center>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <center>
+          <p style="font-size: 20px;">Descrição:</p>
+        </center>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p style="font-size: 20px;" id="descUm">Processador</p>
+        <p style="font-size: 20px;" id="descDois">OS</p>
+        <p style="font-size: 20px;" id="descTres">Tela</p>
+        <p style="font-size: 20px;" id="descQuatro">Wi-fi</p>
+        <p style="font-size: 20px;" id="descCinco">Resolução cam</p>
+        <p style="font-size: 20px;" id="descSeis">GPS</p>
+        <p style="font-size: 20px;" id="descSete">Memória</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
