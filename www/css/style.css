@@ -1,3 +1,25 @@
 /**/
-body{
+#display{
+  display: none;
+}
+
+#display1{
+  display: none;
+}
+
+#display2{
+  display: none;
+}
+
+#display3{
+  display: none;
+}
+
+#display4{
+  display: none;
+}
+
+#code{
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
