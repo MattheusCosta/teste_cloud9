@@ -26,48 +26,52 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <button onclick="scanBarcode()" class="btn btn-block btn-primary" style="margin-top: 5%; margin-bottom: 5%;" id="code">Código de barras</button>
+        <button onclick="scanBarcode()" class="btn btn-block btn-primary" id="code">Código de barras</button>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12" id="display">
         <center>
-          <h2 style="font-size: 20px;">Nome do produto</h2>
+          <h2 style="font-size: 20px; font-weight: bold;" id="nome">Nome do produto</h2>
         </center>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12" id="display1">
         <img id="imagemProduto" src="img/tel.jpg" style="width: 100%; margin-top: 5%; margin-bottom: 5%;">
       </div>
     </div>
 
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12" id="display2">
         <center>
-          <p style="font-size: 20px;">Valor: R$</p>
+          <p style="font-size: 20px; font-weight: bold;" id="valor">Valor: R$</p>
         </center>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12" id="display3">
         <center>
-          <p style="font-size: 20px;">Descrição:</p>
+          <p style="font-size: 20px; margin-bottom: 10%; font-weight: bold;">Descrição:</p>
         </center>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12">
-        <p style="font-size: 20px;" id="descUm">Processador</p>
-        <p style="font-size: 20px;" id="descDois">OS</p>
-        <p style="font-size: 20px;" id="descTres">Tela</p>
-        <p style="font-size: 20px;" id="descQuatro">Wi-fi</p>
-        <p style="font-size: 20px;" id="descCinco">Resolução cam</p>
-        <p style="font-size: 20px;" id="descSeis">GPS</p>
-        <p style="font-size: 20px;" id="descSete">Memória</p>
+      <div class="col-xs-12" id="display4">
+        <p style="font-size: 20px;" id="sistemaOperacional">Sistema Operacional: </p>
+        <p style="font-size: 20px;" id="processador">Processador: </p>
+        <p style="font-size: 20px;" id="velocidadeProcessador">Velocidade do processador: </p>
+        <p style="font-size: 20px;" id="memoriaRam">Memória RAM: </p>
+        <p style="font-size: 20px;" id="armazenamentoInterna">Armazenamento interno: </p>
+        <p style="font-size: 20px;" id="armazenamentoExpansivo">Armazenamento Expansivo: </p>
+        <p style="font-size: 20px;" id="tela">Tela: </p>
+        <p style="font-size: 20px;" id="tipoChip">Tipo de chip: </p>
+        <p style="font-size: 20px;" id="conectividade">Conectividade: </p>
+        <p style="font-size: 20px;" id="cameraFrontal">Câmera frontal: </p>
+        <p style="font-size: 20px;" id="cameraTraseira">Câmera Traseira: </p>
       </div>
     </div>
 
