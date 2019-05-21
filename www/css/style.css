@@ -1,5 +1,6 @@
-.form{
-  margin-top: 5%;
+h1{
+  font-size: 30px;
+  text-align: center;
 }
 .form label{
   margin-top: 5%;
@@ -7,4 +8,31 @@
 }
 .form button{
   margin-top: 10%;
+} 
+.form input[type = "text"]{
+	background: none;
+	display: block;
+	margin:  auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 100%;
+	outline: none;
+	color: black;
+	border-radius: 5px;
+	transition: 0.25s;
+}
+.form button[id = "cadastrar"]{
+ background: #2ecc71;
+ display: block;
+ margin: 20px auto;
+ text-align: center;
+ border: 2px solid #2ecc71;
+ padding: 9px 30px;
+ outline: none;
+ color: white;
+ border-radius: 24px;
+ transition: 0.25s;
+ cursor: pointer;
+ font-size: 20px;
 }

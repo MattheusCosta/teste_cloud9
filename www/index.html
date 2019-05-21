@@ -11,7 +11,7 @@
 
   <!-- Código Jquery -->
   <script src="components/jquery-3.3.1.min.js"></script>
-  <script src="components/comandos.js"></script>
+  <script src="components/banco.js"></script>
 
   <link rel="stylesheet" href="components/loader.css">
 
@@ -23,19 +23,30 @@
   </script>
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 form">
-        <div class="form-group">
-          <label>Nome</label>
-          <input type="text" class="form-control">
-          <label>E-mail</label>
-          <input type="text" class="form-control">
-          <div class="container">
-            <button class="btn btn-success btn-block">Enviar</button>
+   <div class="container">
+     <div class="row">
+        <div class="col-xs-12">
+          <h1>Cadastro de Usuarios</h1>
+          <hr>
+        </div>
+     </div>
+     <div class="row">
+        <div class="col-xs-12 form">
+          <div class="form-group">
+            <label>Nome</label>
+            <input type="text" class="form-control" id="nome">
+            <label>E-mail</label>
+            <input type="text" class="form-control" id="email">
+            <button class="btn btn-success" id="cadastrar">Enviar</button>
           </div>
         </div>
-      </div>
-    </div>
+      </div> 
+
+    <!-- <form class="box">
+					<input type="text" id="nome" placeholder="Nome">
+					<input type="text" id="email" placeholder="E-mail">
+          <button class="btn btn-success" id="cadastrar">Enviar</button>
+		</form> -->
+
 </body>
 </html>
